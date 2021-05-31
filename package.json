@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.2",
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.12",
+    "@types/node": "^15.6.1",
+    "@types/sequelize": "^4.28.9"
+  },
+  "scripts": {
+    "dev": "nodemon --watch src -e ts --exec ts-node src/index.ts",
+    "start": "ts-node src/index.ts",
+    "build": "rd /s /q dist & tsc"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "path-to-regexp": "^6.2.0",
+    "sequelize": "^6.6.2"
+  }
+}
